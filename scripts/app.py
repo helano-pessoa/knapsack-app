@@ -50,7 +50,6 @@ def main():
                 solution_table = st.table(pd.DataFrame(sol, columns=['Status']))
                 
                 # show solution and objective value
-                st.write('Solution: ', solution_table)
                 st.write('Objective Value: ', obj_value)
 
 # Run app
