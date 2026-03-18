@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+
+# Ambientes virtuais
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Dados e saídas
+data/raw/
+data/processed/
+*.parquet
+*.h5
+outputs/
+
+# Variáveis de ambiente
+.env
+.env.*
+
+# Testes
+.pytest_cache/
+htmlcov/
+.coverage
+
+# IDEs e config local
+.vscode/
+.idea/
+.github/
+
+# SO
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+*.tmp
