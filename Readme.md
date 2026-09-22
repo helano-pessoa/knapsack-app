@@ -11,10 +11,10 @@ Protótipo didático de seleção de itens sob restrição de capacidade, com Py
 
 ## Estado
 
-Protótipo anterior ao ORKit atual. O endereço antigo de hospedagem foi removido da apresentação porque não há implantação atual verificada. As dependências e a interface precisam de atualização e execução em ambiente atual antes de considerar o projeto pronto para demonstração.
+Protótipo histórico. O endereço antigo de hospedagem foi removido da apresentação porque não há implantação atual verificada. As dependências e a interface precisam de atualização e execução em ambiente atual antes de considerar o projeto pronto para demonstração.
 
 Ponto conhecido a revisar: `st.set_option('deprecation.showfileUploaderEncoding', False)` usa uma opção antiga do Streamlit. Também faltam verificações explícitas do status do solver e da estrutura do CSV. Essas observações vieram da inspeção de código; a aplicação não foi executada nesta revisão.
 
-## Relação com o ORKit
+## Possível reaproveitamento
 
-O problema da mochila é útil para fundamentos de otimização discreta. A versão revisada deve convergir para a biblioteca [orkit-free](https://github.com/helano-pessoa/orkit-free); este protótipo foi preservado, sem duplicar sua interface no produto.
+O problema da mochila é útil para fundamentos de otimização discreta. Este protótipo foi preservado como referência histórica; qualquer versão futura deverá ser revisada, testada e documentada separadamente.
